@@ -1,0 +1,31 @@
+/* Write your code here: */
+/* 2 selectors for 1 style*/
+
+/*group method applying to html elements*/
+h1,h2{
+  color: blueviolet;
+}
+
+/*child method */
+/*father > child 
+  goes only 1 level down of the father selector
+*/
+.box > p{
+  color: firebrick;
+}
+
+/*descendant method */
+.box li{
+  color: blue;
+}
+
+/*chaning method */
+li.done{
+  color: seagreen;
+}
+
+
+/* ancestor + chaning methods combined */
+ul p.done{
+  font-size: 0.5rem;
+}
