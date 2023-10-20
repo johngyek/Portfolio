@@ -1,2 +1,3 @@
-# html-portfolio
-small projects and practice
+# Portfolio
+small projects/practice and portfolio
+
